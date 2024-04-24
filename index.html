@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href=assets\css\styles.css>
 </head>
 <body>
-    
+    <header>
+        <h1 id="circle">Welcome to My Personal Blog</h1>
+    </header>
+    <main>
+        <form id="blogForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="title">Blog Title:</label>
+            <input type="text" id="title" required>
+            <label for="content">Blog Content:</label>
+            <textarea id="content" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <a href="https://developer-portfolio.com">Developer's Portfolio</a>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
