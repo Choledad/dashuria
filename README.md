@@ -1,5 +1,3 @@
-# dashuria
-so much homework
 
 ## File description
 *This is a blog where you can submit your ideas and you can change the display to fit light or dark modes
